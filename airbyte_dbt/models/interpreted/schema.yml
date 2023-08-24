@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: aggregated_data_v
+    description: "Final view for visualization of aggregated covid data"
+    columns:
+      - name: year
+        description: "The year used to aggregate by"
+
+      - name: month
+        description: "The month used to aggregate by"
+
+      - name: total_tested_world
+        description: "The total number of individuals tested for covid worldwide on a given day"
+
+      - name: total_confirmed_world
+        description: "The total number of individuals confirmed to have covid worldwide on a given day"
+
+      - name: total_recovered_world
+        description: "The total number of individuals recovered from covid worldwide on a given day"

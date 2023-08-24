@@ -1,0 +1,34 @@
+
+version: 2
+
+models:
+  - name: stg_covid_epidemiology
+    description: "Staging table for covid related data"
+    columns:
+      - name: statdatetime
+        description: "The date of the statistic"
+
+      - name: new_recovered
+        description: "The number of recovered individuals who recovered from covid"
+
+      - name: new_tested
+        description: "The number of tested individuals"
+
+      - name: new_deceased
+        description: "The number of individuals deceased from covid"
+
+      - name: new_confirmed
+        description: "The number of individuals confirmed to have covid"
+
+      - name: total_recovered
+        description: "The total number of individuals recovered from covid on a day, by country"        
+
+      - name: total_tested
+        description: "The total number of individuals tested for covid on a day, by country"        
+
+      - name: total_confirmed
+        description: "The total number of individuals confirmed to have covid on a day, by country"        
+
+      - name: total_deceased
+        description: "The total number of individuals deceased from covid on a day, by country"                                
+
