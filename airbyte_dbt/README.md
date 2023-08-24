@@ -1,3 +1,6 @@
-Welcome to a very basic dbt project!
+# Airbyte-dbt Demo
 
-This project is to demo transformations in Airbyte, and was created for Hackathon 2023
+## Basic transformation to demo Airbyte
+
+This very basic project is to see how to apply dbt transformations to Airbyte connections.
+
